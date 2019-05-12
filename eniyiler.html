@@ -11,17 +11,17 @@
   <title>Bi Maç?</title>
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
-  <script src="css/jquery.min.js"></script>
-  <script src="css/bootstrap.min.js"></script>
-  <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH"
-    crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
-    crossorigin="anonymous">
+  <link href="css/all.css" rel="stylesheet">
+  <script src="js/jquerymin.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/popper.min.js"></script>,
+  <script src="js/all.js"></script>
+  
 </head>
 
 <body>
 
-  <nav class="navbar navbar-expand-md navbar-light fixed-top" style="background-color: rgb(0, 0, 0)">
+  <nav class="navbar navbar-expand-md navbar-light fixed-top" style="background-color: rgb(21, 20, 27)">
     <div class="container">
       <button class="navbar-toggler" data-toggle="collapse" data-target="#nvbCollapse">
         <span class="navbar-toggler-icon"></span>
@@ -53,7 +53,8 @@
       <div class="container">
         <div class="row text-center">
           <div class="col my-auto" style="padding-bottom:8%;">
-            <h1 style="color:rgb(10, 10, 9);margin-top:15%;font-size:65px;" class="display-4"><span><span class="text-danger">Bi</span> Maç</span>'a
+            <h1 style="color:rgb(10, 10, 9);margin-top:15%;font-size:65px;" class="display-4"><span><span class="text-danger">Bi</span>
+                Maç</span>'a
               Hoşgeldiniz</h1>
             <p style="color:black;font-size: 23px;">Dilediğiniz Şehirde, Dilediğiniz Anda Tüm Halısahalar Bi Tık
               Uzağınızda!</p>
@@ -63,7 +64,7 @@
       </div>
     </div>
   </header>
-
+  <body>
     <div class="container">
         <div id="pop" class="container-fluid overlay">
             <h3 class="text-center" style="color: black">POPÜLER HALISAHALAR</h3>
@@ -74,7 +75,9 @@
                     <img class="card-img-top" style="width:100%; height:100%;" src="images/hali-saha-8.jpg" alt="">
                     <div class="card-body">
                         <h4 class="card-title">Aydınoğlu Halısaha</h4>
-                        <p class="card-text"></p>
+                        <p class="card-text"><i class="far fa-heart fa-2x mr-1"></i><span class="mr-2">120</span>
+                            <i class="fas fa-heartbeat fa-2x mr-1"></i><span class="mr-2">2</span>
+                            <i class="far fa-comment fa-2x mr-1"></i><span class="mr-2">60</span>
                     </div>
                     <div class="card-footer">
                         <button class="btn btn-danger" data-toggle="modal" data-target="#mymodal">Daha
@@ -85,6 +88,7 @@
                                 <div class="modal-content">
                                     <div class="modal-header">
                                         <h3 class="modal-title">Aydınoğlu Halısaha</h3>
+                                
                                         <button class="close" data-dismiss="modal">&times;</button>
                                     </div>
                                     <div class="modal-body">
@@ -147,11 +151,66 @@
 
         </div>
     </div>
-    <footer class="py-5 " style="background-color:rgb(0, 0, 0);">
+
+  <footer class="py-5 " style="background-color:rgb(21, 20, 27); margin-top: 200px; ">
+    <div class="container">
+      <section id="contact" class="py-5">
         <div class="container">
-            <p class="m-0 text-center text-white"> &copy; </p>
+          <div class="row">
+            <div class="col-lg-6">
+              <h2>BİZE ULAŞIN!</h2>
+              <p>Paragraf</p>
+              <h4>Adres</h4>
+              <p>Adres</p>
+              <h4>E-Mail</h4>
+              <p>sabri_cetinkayaa@icloud.com</p>
+              <h4>Telefon</h4>
+              <p>444 0 316</p>
+              <div class="d-flex flex-row">
+                <div class="p-2">
+                  <a href="#"><i class="fab fa-facebook-f  fa-2x"></i></a>
+                </div>
+                <div class="p-2">
+                  <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+                </div>
+                <div class="p-2">
+                  <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+                </div>
+              </div>
+          </div>
+          <div class="col-lg-6">
+            <form>
+              <div class="form-group">
+                <div class="input-group input-group-lg">
+                  <span class="input-group-addon">
+                    <i class="fa fa-user"></i>
+                  </span>
+                  <input class="form-control" type="text" placeholder="Ad">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="input-group input-group-lg">
+                  <span class="input-group-addon">
+                    <i class="fa fa-envelope"></i>
+                  </span>
+                  <input class="form-control" type="email" placeholder="E-mail">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="input-group input-group-lg">
+                  <span class="input-group-addon">
+                    <i class="fab fa-pencil"></i>
+                  </span>
+                  <textarea class="form-control" placeholder="Mesaj" rows="5"></textarea>
+                </div>
+              </div>
+              <input type="submit" value="GÖNDER" class="btn btn-danger btn-block">
+            </form>
+          </div>
         </div>
-    </footer>
+      </section>
+    </div>
+  </footer>
 </body>
 
 </html>
