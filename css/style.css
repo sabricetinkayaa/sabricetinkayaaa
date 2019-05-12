@@ -110,3 +110,24 @@ p{
     color:#fff;
     background-color:#ebe4e5 !important;
 }
+.card-body span{
+    font-size: 15px;
+}
+.card-footer a{
+    text-decoration: none; 
+    color:white;
+}
+.card-title{
+    font-size:20px;
+}
+.form-group label{
+    font-size: 15px;
+}
+.bas{
+    font-size: 22px;
+    color:#dc3545;
+}
+hr{
+    border-color:#dc3545;
+    margin-top:-0px;
+}
