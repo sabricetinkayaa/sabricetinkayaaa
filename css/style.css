@@ -112,6 +112,7 @@ p{
 }
 .card-body span{
     font-size: 15px;
+    color:black;
 }
 .card-footer a{
     text-decoration: none; 
@@ -119,6 +120,7 @@ p{
 }
 .card-title{
     font-size:20px;
+    color:black;
 }
 .form-group label{
     font-size: 15px;
@@ -130,4 +132,10 @@ p{
 hr{
     border-color:#dc3545;
     margin-top:-0px;
+}
+.section1 .btn{
+    border:white solid 1px;
+}
+.detay .input-group-addon{
+    width:40px;
 }
