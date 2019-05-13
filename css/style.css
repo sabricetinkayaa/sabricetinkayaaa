@@ -5,7 +5,7 @@ h3{
 p{
     font-size:14px;
 }
-.navbar-toggler-icon{
+.navbar-toggler{
     background-color:white;
 }
 .navbar a .mac:hover, .navbar a:hover{
@@ -138,4 +138,7 @@ hr{
 }
 .detay .input-group-addon{
     width:40px;
+}
+.detay .btn-danger{
+    width:65px;
 }
