@@ -142,3 +142,33 @@ hr{
 .detay .btn-danger{
     width:65px;
 }
+.kayit h1{
+    color:#dc3545;
+}
+.kayit .svg-inline--fa{
+    color:white;
+    font-size:26px;
+}
+.giris .svg-inline--fa{
+    color:white;
+    font-size:26px;
+}
+.giris h1{
+    color:#dc3545;
+}
+.hak .container{
+    margin-top:150px;
+}
+.hak h2{
+    color:#dc3545;
+}
+.hak .haksol {
+    width: 70%;
+    height:70%;
+    margin-left:130px;
+}
+.hak .my-auto{
+    background: url('../images/back.jpg') no-repeat center center fixed;
+    height:auto;
+    text-align: center;
+}
