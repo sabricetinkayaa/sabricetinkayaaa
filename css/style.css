@@ -172,3 +172,153 @@ hr{
     height:auto;
     text-align: center;
 }
+.display-4{
+    color:rgb(10, 10, 9);
+    margin-top:15%;
+    font-size:65px;
+}
+.bitik{
+    color:black;
+    font-size: 23px;
+}
+
+@media screen and ( max-width:992px ) {
+    .display-4{
+        font-size:48px;
+    }
+    .bitik{
+        color:black;
+        font-size: 18px;
+    }
+    .btn{
+        font-size:13px;
+    }
+    .feature{
+        font-size:22px;
+    }
+    .feature p{
+        font-size:12px;
+    }
+    .feature h3{
+        font-size:15px;
+    }
+    #galeri .col-md-3{
+        width:50%;
+        height:50%;
+    }
+    .py-5 .row{
+        font-size:10px;
+    }
+    #pop h3{
+        font-size:16px;
+    }
+    .enn h4{
+        font-size:20px;
+    }
+    .enn .col-lg-3{
+        font-size:20px;
+        width:60%;
+        height:60%;
+    }
+    .enn .mr-1{
+        font-size:16px;
+    }
+    #tumhalisahalar .mb-2{
+        font-size:18px;
+    }
+    #tumhalisahalar label{
+        font-size:15px;
+    }
+
+} 
+
+@media screen and ( max-width:768px ){
+    .display-4{
+        font-size:38px;
+    }
+    .bitik{
+        color:black;
+        font-size: 15px;
+    }
+    .btn{
+        font-size:10px;
+    }
+    .feature{
+        font-size:15px;
+    }
+    .feature p{
+        font-size:9px;
+    }
+    .feature h3{
+        font-size:12px;
+    }
+    #galeri .col-md-3{
+        width:25%;
+        height:25%;
+    }
+    #pop h3{
+        font-size:13px;
+    }
+    .enn h4{
+        font-size:17px;
+    }
+    .enn .col-lg-3{
+        font-size:16px;
+        width:50%;
+        height:50%;
+    }
+    .enn .mr-1{
+        font-size:13px;
+    }
+    #tumhalisahalar .mb-2{
+        font-size:15px;
+    }
+    #tumhalisahalar label{
+        font-size:13px;
+    }
+} 
+@media screen and ( max-width:576px ){
+    .display-4{
+        font-size:28px;
+    }
+    .bitik{
+        color:black;
+        font-size: 12px;
+    }
+    .btn{
+        font-size:8px;
+    }
+    .feature{
+        font-size:10px;
+    }
+    .feature p{
+        font-size:7px;
+    }
+    .feature h3{
+        font-size:9px;
+    }
+    #galeri .col-md-3{
+        width:25%;
+        height:25%;
+    }
+    #pop h3{
+        font-size:10px;
+    }
+    .enn h4{
+        font-size:12px;
+    }
+    .enn .col-lg-3{
+        font-size:12px;
+        width:50%;
+        height:50%;
+    }
+    .enn .mr-1{
+        font-size:10px;
+    }
+    #tumhalisahalar .mb-2{
+        font-size:12px;
+    }
+    #tumhalisahalar label{
+        font-size:10px;
+    }
+} 
