@@ -229,6 +229,21 @@ hr{
     #tumhalisahalar label{
         font-size:15px;
     }
+    .giris h1{
+        font-size:27px;
+    }
+    .hak h1{
+        font-size:22px;
+    }
+    .hak p{
+        font-size:12px;
+    }
+    .hak h2{
+        font-size:22px;
+    }
+    .kayit h1{
+        font-size:22px;
+    }
 
 } 
 
@@ -276,6 +291,21 @@ hr{
     #tumhalisahalar label{
         font-size:13px;
     }
+    .giris h1{
+        font-size:20px;
+    }
+    .hak h1{
+        font-size:19px;
+    }
+    .hak p{
+        font-size:10px;
+    }
+    .hak h2{
+        font-size:19px;
+    }
+    .kayit h1{
+        font-size:19px;
+    }
 } 
 @media screen and ( max-width:576px ){
     .display-4{
@@ -320,5 +350,20 @@ hr{
     }
     #tumhalisahalar label{
         font-size:10px;
+    }
+    .giris h1{
+        font-size:15px;
+    }
+    .hak h1{
+        font-size:16px;
+    }
+    .kayit h1{
+        font-size:16px;
+    }
+    .hak p{
+        font-size:10px;
+    }
+    .hak h2{
+        font-size:16px;
     }
 } 
